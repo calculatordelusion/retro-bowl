@@ -84,7 +84,6 @@ const GameEmbed = () => {
             className="absolute inset-0 w-full h-full border-0"
             id="gameIframe"
             allow="fullscreen; autoplay; accelerometer; gyroscope; magnetometer"
-            sandbox="allow-forms allow-scripts allow-same-origin allow-modals allow-popups allow-pointer-lock allow-top-navigation allow-top-navigation-by-user-activation"
             style={{
               width: '100%',
               height: '100%'
