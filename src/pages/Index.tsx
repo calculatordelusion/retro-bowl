@@ -57,9 +57,9 @@ const Index = () => {
   return (
     <Layout>
       <SEO 
-        title="Play Retro Bowl Unblocked Free Online - Official 2025 Version"
-        description="🏈 Play Retro Bowl Unblocked free! The #1 unblocked football game for 2025. Build your NFL dynasty, manage rosters, call plays & dominate championships. Works at school/work - no downloads, instant access on any device!"
-        keywords="retro bowl unblocked, retro bowl unblocked games, play retro bowl unblocked, retro bowl free online, unblocked football games, retro bowl at school, nfl retro game, browser football game, retro bowl 2025, retro bowl no download, american football game, retro bowl unblocked wtf, retro bowl unblocked 66, retro bowl unblocked 76"
+        title="Play Retro Bowl Unblocked Free Online - Official 2026 Version"
+        description="🏈 Play Retro Bowl Unblocked free! The #1 unblocked football game for 2026. Build your NFL dynasty, manage rosters, call plays & dominate championships. Works at school & work on any device – no downloads, instant access, completely free."
+        keywords="retro bowl unblocked, retro bowl unblocked games, play retro bowl unblocked, retro bowl free online, unblocked football games, retro bowl at school, nfl retro game, browser football game, retro bowl 2026, retro bowl no download, american football game, retro bowl unblocked wtf, retro bowl unblocked 66, retro bowl unblocked 76"
         canonicalUrl="https://retrobowlunblocked.biz/"
         ogImage="/images/retro-bowl-unblocked.jpg"
         jsonLd={jsonLd}
@@ -69,10 +69,10 @@ const Index = () => {
         <article itemScope itemType="https://schema.org/Game">
         <section className="text-center mb-6 animate-pixel-fade-in px-4">
           <h1 className="text-retro-yellow font-pixel text-2xl sm:text-3xl mb-4" itemProp="name">
-            🏈 Play Retro Bowl Unblocked Free Online - 2025 Official Version
+            🏈 Play Retro Bowl Unblocked Free Online - 2026 Official Version
           </h1>
           <p className="text-retro-light-gray max-w-2xl mx-auto mb-6" itemProp="description">
-            Experience authentic American football action in the #1 unblocked football game of 2025! Build your NFL dynasty, draft star players, call strategic plays, and lead your team to championship glory. Play instantly at school or work with no downloads required - just pure retro football fun!
+            Experience authentic American football action in the #1 unblocked football game of 2026! Build your NFL dynasty, draft star players, call strategic plays, and lead your team to championship glory. Play instantly at school or work with no downloads required – just pure retro football fun in your browser.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-6">
             <FeatureTag icon={<Trophy size={16} />} text="Win Championships" />
@@ -99,10 +99,10 @@ const Index = () => {
         <section className="max-w-4xl mx-auto my-12 animate-pixel-fade-in px-4" itemScope itemType="https://schema.org/Article">
           <div className="text-center mb-8">
             <h2 className="text-retro-yellow font-pixel text-xl mb-2" itemProp="headline">Why Retro Bowl Unblocked is the #1 Free Football Game in 2025</h2>
-            <p className="text-retro-light-gray max-w-2xl mx-auto" itemProp="description">Discover why millions of players choose Retro Bowl Unblocked - combining nostalgic 8-bit graphics with addictive modern football gameplay, deep team management, and authentic NFL simulation</p>
+            <p className="text-retro-light-gray max-w-2xl mx-auto" itemProp="description">Discover why millions of players choose Retro Bowl Unblocked - combining nostalgic 8-bit graphics with addictive modern football gameplay, deep team management, and authentic NFL simulation.</p>
             <meta itemProp="author" content="Retro Bowl Unblocked Team" />
             <meta itemProp="datePublished" content="2024-01-15" />
-            <meta itemProp="dateModified" content="2025-11-12" />
+            <meta itemProp="dateModified" content="2026-01-27" />
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

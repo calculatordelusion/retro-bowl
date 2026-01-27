@@ -32,7 +32,7 @@ const About = () => {
         title="About Us"
         description="Learn about the Retro Bowl Unblocked game - our story, features, and our passion for creating accessible and fun retro-style football gaming experiences."
         keywords="retro bowl about, pixel football history, retro gaming, about retro bowl, sports game development, retro bowl team, pixel art sports games"
-        canonicalUrl="https://retrobowlunblocked.com/about"
+        canonicalUrl="https://retrobowlunblocked.biz/about"
         ogType="article"
         jsonLd={jsonLd}
       />

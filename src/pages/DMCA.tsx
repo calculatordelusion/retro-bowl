@@ -32,7 +32,7 @@ const DMCA = () => {
         title="DMCA Policy"
         description="Our Digital Millennium Copyright Act (DMCA) policy details the process for reporting copyright infringement claims relating to Retro Bowl Unblocked content."
         keywords="DMCA notice, copyright infringement, retro bowl copyright, intellectual property, game copyright, DMCA takedown, copyright policy"
-        canonicalUrl="https://retrobowlunblocked.com/dmca"
+        canonicalUrl="https://retrobowlunblocked.biz/dmca"
         ogType="article"
         jsonLd={jsonLd}
       />

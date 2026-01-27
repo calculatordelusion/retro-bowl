@@ -48,7 +48,7 @@ const FAQ = () => {
         title="Frequently Asked Questions"
         description="Find answers to the most common questions about Retro Bowl Unblocked. Learn about game mechanics, team management, player development, and technical support."
         keywords="retro bowl FAQ, retro bowl questions, retro bowl help, football game help, retro bowl mechanics, player development, team management tips"
-        canonicalUrl="https://retrobowlunblocked.com/faq"
+        canonicalUrl="https://retrobowlunblocked.biz/faq"
         ogType="article"
         jsonLd={jsonLd}
       />

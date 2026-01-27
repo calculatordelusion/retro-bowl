@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import { Trophy, Star, Medal, Crown, Award, Target, Flame } from 'lucide-react';
+import SEO from '@/components/seo/SEO';
 
 const Achievements = () => {
   useEffect(() => {
@@ -10,8 +11,24 @@ const Achievements = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Retro Bowl Achievements",
+    "description": "Full list of Retro Bowl Unblocked achievements including team, player, and career milestones with rewards.",
+    "url": "https://retrobowlunblocked.biz/achievements"
+  };
+
   return (
     <Layout>
+      <SEO
+        title="Retro Bowl Achievements List"
+        description="Explore all Retro Bowl Unblocked achievements, from team championships to player milestones and long-term coaching goals, with their rewards."
+        keywords="retro bowl achievements, retro bowl trophies, retro bowl milestones, retro bowl rewards, retro bowl goals"
+        canonicalUrl="https://retrobowlunblocked.biz/achievements"
+        ogType="article"
+        jsonLd={jsonLd}
+      />
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-retro-yellow font-pixel text-2xl mb-6 text-center animate-pixel-fade-in">

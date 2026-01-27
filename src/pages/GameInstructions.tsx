@@ -41,7 +41,7 @@ const GameInstructions = () => {
         title="Game Instructions"
         description="Comprehensive guide to playing Retro Bowl Unblocked. Learn the controls, master advanced techniques, manage your team effectively, and explore different game modes."
         keywords="retro bowl instructions, how to play retro bowl, retro bowl controls, football game tutorial, team management guide, retro bowl gameplay, player development"
-        canonicalUrl="https://retrobowlunblocked.com/game-instructions"
+        canonicalUrl="https://retrobowlunblocked.biz/game-instructions"
         ogType="article"
         jsonLd={jsonLd}
       />

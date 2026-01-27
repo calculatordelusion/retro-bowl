@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import { Shield, Lock, Eye, FileText } from 'lucide-react';
+import SEO from '@/components/seo/SEO';
 
 const Privacy = () => {
   useEffect(() => {
@@ -10,8 +11,28 @@ const Privacy = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy Policy - Retro Bowl Unblocked",
+    "description": "Read the official privacy policy for Retro Bowl Unblocked, including how we collect, use, and protect your data.",
+    "url": "https://retrobowlunblocked.biz/privacy",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Retro Bowl Unblocked"
+    }
+  };
+
   return (
     <Layout>
+      <SEO
+        title="Privacy Policy"
+        description="Official privacy policy for Retro Bowl Unblocked. Learn how we collect, use, and protect your personal data when you play the game on our site."
+        keywords="retro bowl privacy policy, data protection, retro bowl unblocked privacy, cookie policy, user data, online game privacy"
+        canonicalUrl="https://retrobowlunblocked.biz/privacy"
+        ogType="article"
+        jsonLd={jsonLd}
+      />
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-retro-yellow font-pixel text-2xl mb-6 text-center animate-pixel-fade-in">

@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import { Lightbulb, Zap, ShieldAlert, Trophy } from 'lucide-react';
+import SEO from '@/components/seo/SEO';
 
 const TipsAndTricks = () => {
   useEffect(() => {
@@ -10,8 +11,24 @@ const TipsAndTricks = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Retro Bowl Tips and Tricks",
+    "description": "Advanced Retro Bowl Unblocked tips and tricks covering offense, defense, roster building, and game management to win more championships.",
+    "url": "https://retrobowlunblocked.biz/tips-and-tricks"
+  };
+
   return (
     <Layout>
+      <SEO
+        title="Retro Bowl Tips & Tricks"
+        description="Boost your Retro Bowl Unblocked performance with pro-level tips and tricks for offense, defense, play-calling, and long-term roster building."
+        keywords="retro bowl tips, retro bowl tricks, retro bowl strategy, retro bowl guide, how to win retro bowl, retro bowl offense tips, retro bowl defense tips"
+        canonicalUrl="https://retrobowlunblocked.biz/tips-and-tricks"
+        ogType="article"
+        jsonLd={jsonLd}
+      />
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-retro-yellow font-pixel text-2xl mb-6 text-center animate-pixel-fade-in">

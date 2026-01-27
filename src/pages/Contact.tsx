@@ -30,7 +30,7 @@ const Contact = () => {
         title="Contact Us"
         description="Get in touch with the Retro Bowl Unblocked team. Contact us for support, feedback, partnerships, or any questions about the game."
         keywords="retro bowl contact, retro bowl support, retro bowl feedback, contact us, retro bowl help, retro bowl team"
-        canonicalUrl="https://retrobowlunblocked.com/contact"
+        canonicalUrl="https://retrobowlunblocked.biz/contact"
         ogType="website"
         jsonLd={jsonLdContact}
       />

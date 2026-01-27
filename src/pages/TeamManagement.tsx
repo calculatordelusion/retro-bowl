@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import { Users, Briefcase, Award, TrendingUp } from 'lucide-react';
+import SEO from '@/components/seo/SEO';
 
 const TeamManagement = () => {
   useEffect(() => {
@@ -10,8 +11,28 @@ const TeamManagement = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Retro Bowl Team Management Guide",
+    "description": "In-depth guide to building a championship team in Retro Bowl Unblocked, including roster building, salary cap strategy, and player development.",
+    "url": "https://retrobowlunblocked.biz/team-management",
+    "author": {
+      "@type": "Organization",
+      "name": "Retro Bowl Unblocked"
+    }
+  };
+
   return (
     <Layout>
+      <SEO
+        title="Team Management Guide"
+        description="Master team management in Retro Bowl Unblocked. Learn roster strategy, salary cap management, player development, and building a long-term championship dynasty."
+        keywords="retro bowl team management, retro bowl roster guide, salary cap tips, retro bowl dynasty, retro bowl strategy guide"
+        canonicalUrl="https://retrobowlunblocked.biz/team-management"
+        ogType="article"
+        jsonLd={jsonLd}
+      />
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-retro-yellow font-pixel text-2xl mb-6 text-center animate-pixel-fade-in">
