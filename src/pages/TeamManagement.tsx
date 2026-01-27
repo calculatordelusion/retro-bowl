@@ -32,6 +32,8 @@ const TeamManagement = () => {
         canonicalUrl="https://retrobowlunblocked.biz/team-management"
         ogType="article"
         jsonLd={jsonLd}
+        datePublished="2024-01-15"
+        dateModified="2026-01-27"
       />
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto">

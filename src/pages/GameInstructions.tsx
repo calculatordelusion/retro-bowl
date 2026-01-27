@@ -44,6 +44,8 @@ const GameInstructions = () => {
         canonicalUrl="https://retrobowlunblocked.biz/game-instructions"
         ogType="article"
         jsonLd={jsonLd}
+        datePublished="2024-01-15"
+        dateModified="2026-01-27"
       />
       
       <div className="container mx-auto px-4 py-12">

@@ -12,6 +12,8 @@ interface SEOProps {
   author?: string;
   datePublished?: string;
   dateModified?: string;
+  /** When true, prevent indexing of this page (used for 404 and utility pages). */
+  noIndex?: boolean;
 }
 
 const SEO = ({
@@ -25,9 +27,16 @@ const SEO = ({
   author = 'Retro Bowl Unblocked Team',
   datePublished,
   dateModified,
+  noIndex = false,
 }: SEOProps) => {
   const site = 'Retro Bowl Unblocked';
   const fullTitle = title.includes('|') ? title : `${title} | ${site}`;
+
+  const robotsContent = noIndex
+    ? 'noindex, nofollow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+    : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+
+  const crawlerRobots = noIndex ? 'noindex, nofollow' : 'index, follow';
 
   return (
     <Helmet>
@@ -36,9 +45,9 @@ const SEO = ({
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="author" content={author} />
-      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-      <meta name="googlebot" content="index, follow" />
-      <meta name="bingbot" content="index, follow" />
+      <meta name="robots" content={robotsContent} />
+      <meta name="googlebot" content={crawlerRobots} />
+      <meta name="bingbot" content={crawlerRobots} />
       <meta name="language" content="English" />
       <meta name="rating" content="General" />
       <meta name="revisit-after" content="1 days" />

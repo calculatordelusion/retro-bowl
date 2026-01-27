@@ -35,6 +35,8 @@ const About = () => {
         canonicalUrl="https://retrobowlunblocked.biz/about"
         ogType="article"
         jsonLd={jsonLd}
+        datePublished="2024-01-15"
+        dateModified="2026-01-27"
       />
       
       <div className="container mx-auto px-4 py-12">

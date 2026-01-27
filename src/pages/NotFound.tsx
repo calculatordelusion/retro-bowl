@@ -20,6 +20,7 @@ const NotFound = () => {
         description="The page you're looking for doesn't exist. Return to the Retro Bowl Unblocked homepage to continue enjoying the game."
         keywords="404, page not found, error, missing page, retro bowl error"
         ogType="website"
+        noIndex
       />
       
       <div className="text-center">
