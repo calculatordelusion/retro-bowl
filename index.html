@@ -232,5 +232,49 @@
       ]
     }
     </script>
+    
+    <!-- Netlify Badge Removal Script -->
+    <script>
+      (function() {
+        function removeNetlifyElements() {
+          var selectors = [
+            'a[href*="netlify.com"]',
+            'a[href*="netlify.app"]',
+            '[class*="netlify"]',
+            '[id*="netlify"]',
+            'netlify-badge',
+            'iframe[src*="netlify"]',
+            '[data-netlify-drawer]'
+          ];
+          var els = document.querySelectorAll(selectors.join(','));
+          for (var i = 0; i < els.length; i++) {
+            var el = els[i];
+            if (el) {
+              var text = (el.innerText || el.textContent || '').toLowerCase();
+              var href = (el.getAttribute('href') || '').toLowerCase();
+              if (text.indexOf('netlify') !== -1 || href.indexOf('netlify') !== -1 || el.tagName === 'NETLIFY-BADGE') {
+                el.style.setProperty('display', 'none', 'important');
+                el.style.setProperty('visibility', 'hidden', 'important');
+                el.style.setProperty('opacity', '0', 'important');
+                el.style.setProperty('pointer-events', 'none', 'important');
+                if (el.parentNode && el.parentNode.tagName === 'DIV' && el.parentNode.children.length === 1) {
+                  el.parentNode.style.setProperty('display', 'none', 'important');
+                }
+              }
+            }
+          }
+        }
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', removeNetlifyElements);
+        } else {
+          removeNetlifyElements();
+        }
+        var observer = new MutationObserver(function() {
+          removeNetlifyElements();
+        });
+        observer.observe(document.documentElement, { childList: true, subtree: true });
+        setTimeout(function() { observer.disconnect(); }, 15000);
+      })();
+    </script>
   </body>
 </html>

@@ -94,4 +94,33 @@
   .game-container {
     @apply bg-retro-black rounded-lg shadow-xl overflow-hidden border-4 border-retro-gray;
   }
+
+  /* Hide Netlify Badge and Drawer */
+  a[href*="netlify.com"],
+  a[href*="netlify.app"],
+  iframe[src*="netlify.com"],
+  iframe[src*="netlify.app"],
+  [data-netlify-deploy-id],
+  [class*="netlify-badge"],
+  [id*="netlify-badge"],
+  [class*="netlifyBadge"],
+  [id*="netlifyBadge"],
+  [class*="NetlifyBadge"],
+  [id*="NetlifyBadge"],
+  div:has(> a[href*="netlify.com"]),
+  div:has(> a[href*="netlify.app"]),
+  netlify-badge,
+  #netlify-drawer,
+  .netlify-drawer,
+  [data-netlify-drawer] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    max-height: 0 !important;
+    max-width: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    z-index: -9999 !important;
+  }
 }
