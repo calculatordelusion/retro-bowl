@@ -138,7 +138,7 @@ const RetroBowlGithub = () => {
               <thead>
                 <tr className="bg-retro-blue border-b-2 border-retro-yellow text-retro-white font-pixel text-[11px]">
                   <th className="p-3">Feature</th>
-                  <th className="p-3">RetroBowlUnblocked.biz (GitHub Mirror)</th>
+                  <th className="p-3">RetroBowlUnblocked.live (GitHub Mirror)</th>
                   <th className="p-3">Unblocked Games WTF</th>
                   <th className="p-3">Unblocked Games 911</th>
                 </tr>

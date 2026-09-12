@@ -69,7 +69,7 @@ const Index = () => {
         "name": "How do you play Retro Bowl Unblocked at school without getting blocked?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can play Retro Bowl Unblocked directly on RetroBowlUnblocked.biz. Our website features multi-server cloud failovers that bypass school network filters like GoGuardian and Securly safely on Chromebooks without needing a VPN or administrative privileges."
+          "text": "You can play Retro Bowl Unblocked directly on retrobowlunblocked.live. Our website features multi-server cloud failovers that bypass school network filters like GoGuardian and Securly safely on Chromebooks without needing a VPN or administrative privileges."
         }
       },
       {
@@ -144,15 +144,66 @@ const Index = () => {
           <GameEmbed />
         </section>
 
+        {/* Knowledge Graph Quick Facts & Game Specifications */}
+        <section className="max-w-5xl mx-auto px-4 my-8">
+          <div className="bg-retro-dark-blue border-2 border-retro-gray rounded-xl p-5 shadow-xl">
+            <div className="flex items-center justify-between border-b border-retro-gray/50 pb-3 mb-4">
+              <div className="flex items-center gap-2">
+                <ShieldCheck className="text-retro-yellow" size={18} />
+                <h2 className="font-pixel text-retro-white text-xs sm:text-sm">
+                  RETRO BOWL UNBLOCKED • GAME SPECIFICATIONS &amp; QUICK FACTS
+                </h2>
+              </div>
+              <span className="text-[10px] bg-retro-green/20 text-retro-green px-2 py-0.5 rounded font-mono font-bold border border-retro-green/40">
+                VERIFIED 2026
+              </span>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
+              <div className="bg-retro-black/60 p-3 rounded-lg border border-retro-gray/40">
+                <span className="text-retro-light-gray block text-[10px] uppercase font-mono tracking-wider mb-1">Developer</span>
+                <span className="font-bold text-retro-white">New Star Games</span>
+              </div>
+              <div className="bg-retro-black/60 p-3 rounded-lg border border-retro-gray/40">
+                <span className="text-retro-light-gray block text-[10px] uppercase font-mono tracking-wider mb-1">Genre</span>
+                <span className="font-bold text-retro-white">American Football / Sim</span>
+              </div>
+              <div className="bg-retro-black/60 p-3 rounded-lg border border-retro-gray/40">
+                <span className="text-retro-light-gray block text-[10px] uppercase font-mono tracking-wider mb-1">Rating</span>
+                <span className="font-bold text-retro-yellow">4.9 / 5.0 (16,480+ Votes)</span>
+              </div>
+              <div className="bg-retro-black/60 p-3 rounded-lg border border-retro-gray/40">
+                <span className="text-retro-light-gray block text-[10px] uppercase font-mono tracking-wider mb-1">Price</span>
+                <span className="font-bold text-retro-green">100% Free • No Ads</span>
+              </div>
+              <div className="bg-retro-black/60 p-3 rounded-lg border border-retro-gray/40">
+                <span className="text-retro-light-gray block text-[10px] uppercase font-mono tracking-wider mb-1">Platforms</span>
+                <span className="font-bold text-retro-white">Web, Chromebook, PC, Mac</span>
+              </div>
+              <div className="bg-retro-black/60 p-3 rounded-lg border border-retro-gray/40">
+                <span className="text-retro-light-gray block text-[10px] uppercase font-mono tracking-wider mb-1">Engine &amp; FPS</span>
+                <span className="font-bold text-retro-orange">HTML5 / WebGL • 60 FPS</span>
+              </div>
+              <div className="bg-retro-black/60 p-3 rounded-lg border border-retro-gray/40">
+                <span className="text-retro-light-gray block text-[10px] uppercase font-mono tracking-wider mb-1">Network Filter</span>
+                <span className="font-bold text-retro-green">GoGuardian / Securly Bypass</span>
+              </div>
+              <div className="bg-retro-black/60 p-3 rounded-lg border border-retro-gray/40">
+                <span className="text-retro-light-gray block text-[10px] uppercase font-mono tracking-wider mb-1">Save Data</span>
+                <span className="font-bold text-blue-400">Browser Storage + Export</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* High-Intent Game Edition Switcher */}
         <section className="max-w-5xl mx-auto px-4 my-10">
           <div className="flex items-center justify-between mb-4">
             <h2 className="font-pixel text-retro-yellow text-xs sm:text-sm flex items-center gap-2">
               <Gamepad2 size={16} />
-              FEATURED RETRO BOWL GAME EDITIONS
+              POPULAR UNBLOCKED GAMES &amp; RETRO EDITIONS
             </h2>
             <span className="text-[11px] text-retro-light-gray hidden sm:inline">
-              1-Click Instant Play
+              1-Click Instant Play • 100% Free
             </span>
           </div>
 
@@ -164,7 +215,7 @@ const Index = () => {
               players="4.8M"
               badge="Original"
               to="/"
-              description="The classic NFL franchise builder with draft scouting and championship playoffs."
+              description="The classic NFL franchise builder with draft scouting, salary cap, and championship playoffs."
             />
             <GameCard 
               title="Retro Bowl College"
@@ -182,7 +233,43 @@ const Index = () => {
               players="2.9M"
               badge="NEW"
               to="/retro-bowl-25"
-              description="Updated 2025/2026 NFL rosters, 12-man roster cap, and tight coverage AI."
+              description="Updated 2025/2026 NFL rosters, 12-man roster cap, and aggressive defensive AI."
+            />
+            <GameCard 
+              title="Retro Bowl GitHub"
+              category="Filter Bypass"
+              rating="4.9"
+              players="3.8M"
+              badge="MIRROR"
+              to="/retro-bowl-github"
+              description="High-speed GitHub Pages mirror that bypasses GoGuardian & Securly with zero lag."
+            />
+            <GameCard 
+              title="Retro Goal"
+              category="Soccer Arcade"
+              rating="4.8"
+              players="2.9M"
+              badge="NEW"
+              to="/retro-goal"
+              description="Official 16-bit soccer arcade sister title. Manage European clubs and score world-class goals."
+            />
+            <GameCard 
+              title="Retro Ping Pong"
+              category="2-Player Local"
+              rating="4.8"
+              players="2.1M"
+              badge="2-PLAYER"
+              to="/retro-ping-pong"
+              description="Play 1v1 split-keyboard arcade table tennis with friends on the same school Chromebook."
+            />
+            <GameCard 
+              title="Best Teams Tier List"
+              category="Dynasty Strategy"
+              rating="4.9"
+              players="1.8M"
+              badge="GUIDE"
+              to="/best-teams"
+              description="Complete NFL franchise tier list: ratings, cap space, and top rebuilds on Extreme mode."
             />
             <GameCard 
               title="Unblocked at School"

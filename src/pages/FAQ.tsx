@@ -36,7 +36,7 @@ const FAQ = () => {
         "name": "How do I play Retro Bowl on a school Chromebook without getting blocked?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can play Retro Bowl Unblocked directly on RetroBowlUnblocked.biz. If your school's network filter blocks a server, simply click the 'Server' button on our game player to switch to Server 2 or Server 3, which route through educational cloud proxies that bypass GoGuardian and Securly."
+          "text": "You can play Retro Bowl Unblocked directly on RetroBowlUnblocked.live. If your school's network filter blocks a server, simply click the 'Server' button on our game player to switch to Server 2 or Server 3, which route through educational cloud proxies that bypass GoGuardian and Securly."
         }
       },
       {

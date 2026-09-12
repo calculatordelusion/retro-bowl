@@ -66,7 +66,7 @@ const About = () => {
               However, millions of students and workers who wish to play during their well-earned breaks find themselves restricted by aggressive school and corporate network firewalls like GoGuardian, Securly, and Fortinet. Furthermore, the few "unblocked" sites that did exist were riddled with intrusive pop-up ads, fake download buttons, and broken iframes that wiped user saves upon reload.
             </p>
             <p className="text-white font-bold">
-              We built RetroBowlUnblocked.biz to fix this forever: providing a clean, blazing-fast, ad-free environment equipped with multi-server cloud failover and permanent save-game backup tools.
+              We built RetroBowlUnblocked.live to fix this forever: providing a clean, blazing-fast, ad-free environment equipped with multi-server cloud failover and permanent save-game backup tools.
             </p>
           </div>
 

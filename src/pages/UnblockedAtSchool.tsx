@@ -42,7 +42,7 @@ const UnblockedAtSchool = () => {
       {
         "@type": "HowToStep",
         "name": "Connect to an Unblocked Mirror",
-        "text": "Open RetroBowlUnblocked.biz and select Server 1 or Server 2 from our built-in server switcher."
+        "text": "Open RetroBowlUnblocked.live and select Server 1 or Server 2 from our built-in server switcher."
       },
       {
         "@type": "HowToStep",
@@ -128,7 +128,7 @@ const UnblockedAtSchool = () => {
         {/* AEO Featured Snippet Box */}
         <DirectAnswerBox 
           question="How do you play Retro Bowl Unblocked at school on a Chromebook?"
-          answer="To play Retro Bowl Unblocked at school on a Chromebook without a VPN: (1) Navigate directly to RetroBowlUnblocked.biz on Google Chrome, (2) If your school network blocks Server 1, click the 'Server' button on our game player and switch to Server 2 or 3, (3) Press 'Fullscreen' for maximum immersion, and (4) Remember to use the 'Backup Save' button before logging off so school cookie-wipes don't erase your franchise progress."
+          answer="To play Retro Bowl Unblocked at school on a Chromebook without a VPN: (1) Navigate directly to RetroBowlUnblocked.live on Google Chrome, (2) If your school network blocks Server 1, click the 'Server' button on our game player and switch to Server 2 or 3, (3) Press 'Fullscreen' for maximum immersion, and (4) Remember to use the 'Backup Save' button before logging off so school cookie-wipes don't erase your franchise progress."
           keyTakeaway="No VPN, browser extension, or administrative download is needed."
         />
 
@@ -153,7 +153,7 @@ const UnblockedAtSchool = () => {
               </thead>
               <tbody className="divide-y divide-retro-gray/40 text-retro-light-gray">
                 <tr className="hover:bg-retro-black/40">
-                  <td className="p-3 font-bold text-retro-green">RetroBowlUnblocked.biz (Our Site)</td>
+                  <td className="p-3 font-bold text-retro-green">RetroBowlUnblocked.live (Our Site)</td>
                   <td className="p-3 text-retro-green font-bold">100% Safe (SSL Encrypted, No Ads)</td>
                   <td className="p-3 text-retro-green font-bold">60 FPS Smooth</td>
                   <td className="p-3 text-retro-green font-bold">99.8% (3 Multi-Server Mirrors)</td>
