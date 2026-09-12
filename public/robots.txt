@@ -1,4 +1,4 @@
-# Robots.txt for retrobowlunblocked.biz
+# Robots.txt for retrobowlunblocked.live
 # Optimized for search engine crawling
 
 User-agent: *
@@ -40,5 +40,5 @@ User-agent: dotbot
 Disallow: /
 
 # Sitemap location
-Sitemap: https://retrobowlunblocked.biz/sitemap.xml
+Sitemap: https://retrobowlunblocked.live/sitemap.xml
 

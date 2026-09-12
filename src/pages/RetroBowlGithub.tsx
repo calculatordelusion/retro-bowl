@@ -86,7 +86,7 @@ const RetroBowlGithub = () => {
         title="Retro Bowl GitHub Unblocked (2026) ⚡ WTF & 911 School Mirror"
         description="Play Retro Bowl GitHub Unblocked free! Official GitHub.io mirror that bypasses GoGuardian & Securly school filters with 60 FPS zero lag. No download required!"
         keywords="retro bowl github, retro bowl github io, retro bowl unblocked wtf, retro bowl 911, retro bowl unblocked 66 ez, retro bowl unblocked 76, play retro bowl github"
-        canonicalUrl="https://retrobowlunblocked.biz/retro-bowl-github"
+        canonicalUrl="https://retrobowlunblocked.live/retro-bowl-github"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 

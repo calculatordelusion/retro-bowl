@@ -16,7 +16,7 @@ const Achievements = () => {
     "@type": "CollectionPage",
     "name": "Complete Retro Bowl Achievements & Coaching Credits Guide (2026)",
     "description": "Full directory of all 26 Retro Bowl achievements with coaching credit rewards, difficulty ratings, and speedrunning strategies.",
-    "url": "https://retrobowlunblocked.biz/achievements"
+    "url": "https://retrobowlunblocked.live/achievements"
   };
 
   return (
@@ -25,7 +25,7 @@ const Achievements = () => {
         title="Retro Bowl Achievements & Trophy Guide (2026) 🏆 CC Rewards"
         description="Unlock every Retro Bowl achievement! Complete directory of team, player & career milestones with exact Coaching Credit rewards and speedrun tips."
         keywords="retro bowl achievements, retro bowl trophies, retro bowl milestones, retro bowl coaching credits rewards, how to get retro bowl achievements"
-        canonicalUrl="https://retrobowlunblocked.biz/achievements"
+        canonicalUrl="https://retrobowlunblocked.live/achievements"
         ogType="article"
         jsonLd={jsonLd}
       />

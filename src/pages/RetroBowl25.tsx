@@ -94,7 +94,7 @@ const RetroBowl25 = () => {
         title="Retro Bowl 25 Unblocked [Official 2026 Season] 🏈 Play Free"
         description="Play Retro Bowl 25 Unblocked free online! Featuring updated 2025/2026 NFL rosters, 12-man roster cap, dynamic difficulty & zero lag. 100% unblocked on school Chromebooks."
         keywords="retro bowl 25 unblocked, retro bowl 2026, play retro bowl 25, retro bowl 25 online free, retro bowl 25 chromebook, retro bowl 25 unblocked games, retro bowl updated version"
-        canonicalUrl="https://retrobowlunblocked.biz/retro-bowl-25"
+        canonicalUrl="https://retrobowlunblocked.live/retro-bowl-25"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 

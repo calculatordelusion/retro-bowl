@@ -97,7 +97,7 @@ const Index = () => {
         title="Retro Bowl Unblocked [Official 2026] 🏈 Play Free at School"
         description="🏈 Play Retro Bowl Unblocked free online in 2026! Official unblocked version – Build your NFL dynasty, manage salary cap, call winning plays & win championships with zero lag on school Chromebooks & PC!"
         keywords="retro bowl unblocked, play retro bowl unblocked, retro bowl unblocked games, retro bowl free online, retro bowl at school, retro bowl unblocked 76, retro bowl unblocked 66, retro bowl 2026, retro bowl chromebook, retro bowl no download"
-        canonicalUrl="https://retrobowlunblocked.biz/"
+        canonicalUrl="https://retrobowlunblocked.live/"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 

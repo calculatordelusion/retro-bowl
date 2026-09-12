@@ -86,7 +86,7 @@ const RetroGoal = () => {
         title="Retro Goal Unblocked [2026] ⚽ Play Free Arcade Soccer"
         description="Play Retro Goal Unblocked free online! Manage European football clubs, score world-class headers & win champions league trophies. 100% unblocked at school."
         keywords="retro goal unblocked, play retro goal free, retro goal online, retro goal game, retro goal chromebook, retro goal school, retro goal new star games"
-        canonicalUrl="https://retrobowlunblocked.biz/retro-goal"
+        canonicalUrl="https://retrobowlunblocked.live/retro-goal"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 

@@ -94,7 +94,7 @@ const UnblockedAtSchool = () => {
         title="Play Retro Bowl Unblocked at School (2026) 🏫 Chromebook 76 & 66"
         description="Learn how to play Retro Bowl Unblocked at school on Chromebooks! Bypasses GoGuardian & Securly safely with no download, zero lag & instant saves. Works 100% on school Wi-Fi."
         keywords="retro bowl unblocked at school, retro bowl unblocked 76, retro bowl unblocked 66, retro bowl unblocked chromebook, retro bowl classroom 6x, retro bowl unblocked github, how to play retro bowl at school"
-        canonicalUrl="https://retrobowlunblocked.biz/unblocked-at-school"
+        canonicalUrl="https://retrobowlunblocked.live/unblocked-at-school"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 

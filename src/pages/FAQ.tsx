@@ -56,7 +56,7 @@ const FAQ = () => {
         title="Retro Bowl Unblocked FAQ (2026) ❓ Answers, Saves & Help"
         description="Got questions about Retro Bowl Unblocked? Find answers on game saves, controls, bullet passes, school Chromebook unblocking, and salary cap cheats."
         keywords="retro bowl FAQ, retro bowl questions, how does retro bowl save, retro bowl school chromebook, retro bowl salary cap questions"
-        canonicalUrl="https://retrobowlunblocked.biz/faq"
+        canonicalUrl="https://retrobowlunblocked.live/faq"
         jsonLd={jsonLd}
       />
 

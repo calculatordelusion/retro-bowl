@@ -69,7 +69,7 @@ const ControlsGuide = () => {
         title="Retro Bowl Controls (PC, Chromebook & Mobile) 🎮 Hotkeys Guide"
         description="Complete Retro Bowl controls guide! Keyboard hotkeys for PC & Chromebook, mouse aim mechanics, touch gestures, bullet passes & jukes."
         keywords="retro bowl controls, retro bowl controls pc, retro bowl controls chromebook, how to dive in retro bowl, retro bowl bullet pass controls, retro bowl keybinds"
-        canonicalUrl="https://retrobowlunblocked.biz/controls"
+        canonicalUrl="https://retrobowlunblocked.live/controls"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 

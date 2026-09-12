@@ -79,7 +79,7 @@ const BestTeams = () => {
         title="Retro Bowl Best Teams to Pick (2026) 🏆 Franchise Tier List"
         description="Discover the best teams to pick in Retro Bowl Unblocked! Complete 2026 team ratings, offense & defense star ranks, cap space & rebuild challenges."
         keywords="retro bowl best teams, best team to pick in retro bowl, retro bowl team ratings, retro bowl tier list, retro bowl best franchise, worst team in retro bowl"
-        canonicalUrl="https://retrobowlunblocked.biz/best-teams"
+        canonicalUrl="https://retrobowlunblocked.live/best-teams"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 

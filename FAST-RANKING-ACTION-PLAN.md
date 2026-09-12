@@ -8,10 +8,10 @@
 
 ### **Day 1: Deploy & Verify**
 - [ ] Upload all files to your web host
-- [ ] Verify site loads at retrobowlunblocked.biz
+- [ ] Verify site loads at retrobowlunblocked.live
 - [ ] Test all pages load correctly
-- [ ] Verify robots.txt: https://retrobowlunblocked.biz/robots.txt
-- [ ] Verify sitemap.xml: https://retrobowlunblocked.biz/sitemap.xml
+- [ ] Verify robots.txt: https://retrobowlunblocked.live/robots.txt
+- [ ] Verify sitemap.xml: https://retrobowlunblocked.live/sitemap.xml
 - [ ] Test mobile responsiveness on real device
 
 ### **Day 2: Google Setup**
@@ -79,7 +79,7 @@
   - "How to Win at Retro Bowl - Beginner's Guide"
   - "Top 5 Retro Bowl Tips You Need to Know"
   - "Retro Bowl Championship Run - Full Game"
-- [ ] Link in description: retrobowlunblocked.biz
+- [ ] Link in description: retrobowlunblocked.live
 - [ ] Optimize titles with "retro bowl unblocked"
 
 **Wednesday: Twitter/X Launch**

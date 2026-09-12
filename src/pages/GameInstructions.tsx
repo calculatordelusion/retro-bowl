@@ -41,7 +41,7 @@ const GameInstructions = () => {
         title="How to Play Retro Bowl (2026) 🏈 Rules & Field Manual"
         description="Complete Retro Bowl gameplay instructions! Learn the downs system, passing arcs, running lanes, scoring rules & overtime mechanics."
         keywords="how to play retro bowl, retro bowl instructions, retro bowl rules, retro bowl downs system, retro bowl scoring, retro bowl tutorial"
-        canonicalUrl="https://retrobowlunblocked.biz/game-instructions"
+        canonicalUrl="https://retrobowlunblocked.live/game-instructions"
         ogType="article"
         jsonLd={jsonLd}
       />

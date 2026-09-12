@@ -28,7 +28,7 @@ const TipsAndTricks = () => {
         title="Retro Bowl Tips & Tricks (2026) 💡 Extreme Difficulty Masterclass"
         description="Master Retro Bowl with pro-level tips! Learn wind adjustments, back-shoulder throws, 2-minute clock management & 3-DB defense setups."
         keywords="retro bowl tips, retro bowl tricks, how to win retro bowl extreme, retro bowl passing tips, retro bowl clock management, retro bowl defense setup"
-        canonicalUrl="https://retrobowlunblocked.biz/tips-and-tricks"
+        canonicalUrl="https://retrobowlunblocked.live/tips-and-tricks"
         ogType="article"
         jsonLd={jsonLd}
       />

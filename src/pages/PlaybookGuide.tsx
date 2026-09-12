@@ -60,7 +60,7 @@ const PlaybookGuide = () => {
         title="Retro Bowl Playbook & Passing Guide (2026) 📖 Routes & Coverage"
         description="Master the Retro Bowl offensive playbook! Detailed route breakdowns, defense recognition (Cover 2/3/Blitz), bullet pass execution & 2-point conversions."
         keywords="retro bowl playbook, retro bowl routes guide, retro bowl bullet pass, how to pass in retro bowl, retro bowl offensive strategies, retro bowl cover 2"
-        canonicalUrl="https://retrobowlunblocked.biz/playbook"
+        canonicalUrl="https://retrobowlunblocked.live/playbook"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 

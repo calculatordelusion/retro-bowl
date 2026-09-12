@@ -64,7 +64,7 @@ const CheatsAndSecrets = () => {
         title="Retro Bowl Cheats & Secrets (2026) 💰 Coaching Credits & Glitches"
         description="Discover the best Retro Bowl cheats, secret glitches, unlimited coaching credits farming, salary cap boosts & draft exploits. Dominate every season!"
         keywords="retro bowl cheats, retro bowl glitches, retro bowl unlimited coaching credits, retro bowl salary cap cheat, retro bowl audibles trick, retro bowl tips and cheats"
-        canonicalUrl="https://retrobowlunblocked.biz/cheats-and-secrets"
+        canonicalUrl="https://retrobowlunblocked.live/cheats-and-secrets"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 

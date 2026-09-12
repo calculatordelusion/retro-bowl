@@ -170,7 +170,7 @@ Enhanced content with:
 ## 🚦 Google Search Console Setup
 
 1. **Verify ownership** (HTML file already in /public)
-2. **Submit sitemap**: https://retrobowlunblocked.biz/sitemap.xml
+2. **Submit sitemap**: https://retrobowlunblocked.live/sitemap.xml
 3. **Enable all report types**: Performance, Coverage, Enhancements
 4. **Set up mobile usability tracking**
 5. **Monitor Core Web Vitals**

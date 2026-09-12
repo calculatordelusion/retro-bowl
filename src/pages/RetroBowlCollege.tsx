@@ -94,7 +94,7 @@ const RetroBowlCollege = () => {
         title="Retro Bowl College Unblocked [2026] 🎓 Play Free Online"
         description="Play Retro Bowl College Unblocked free on any device! Manage 256 college football teams, recruit 5-star prospects, balance GPA eligibility & win the National Championship. 100% unblocked at school."
         keywords="retro bowl college unblocked, play retro bowl college unblocked, retro bowl college free online, college football retro game, retro bowl college chromebook, retro bowl college 76, retro bowl college no download"
-        canonicalUrl="https://retrobowlunblocked.biz/retro-bowl-college"
+        canonicalUrl="https://retrobowlunblocked.live/retro-bowl-college"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 

@@ -16,7 +16,7 @@ const Privacy = () => {
     "@type": "WebPage",
     "name": "Privacy Policy - Retro Bowl Unblocked",
     "description": "Read the official privacy policy for Retro Bowl Unblocked, including how we collect, use, and protect your data.",
-    "url": "https://retrobowlunblocked.biz/privacy",
+    "url": "https://retrobowlunblocked.live/privacy",
     "publisher": {
       "@type": "Organization",
       "name": "Retro Bowl Unblocked"
@@ -29,7 +29,7 @@ const Privacy = () => {
         title="Privacy Policy"
         description="Official privacy policy for Retro Bowl Unblocked. Learn how we collect, use, and protect your personal data when you play the game on our site."
         keywords="retro bowl privacy policy, data protection, retro bowl unblocked privacy, cookie policy, user data, online game privacy"
-        canonicalUrl="https://retrobowlunblocked.biz/privacy"
+        canonicalUrl="https://retrobowlunblocked.live/privacy"
         ogType="article"
         jsonLd={jsonLd}
       />

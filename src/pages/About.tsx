@@ -20,7 +20,7 @@ const About = () => {
       "name": "Retro Bowl Unblocked Analytics Team",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://retrobowlunblocked.biz/og-image.png"
+        "url": "https://retrobowlunblocked.live/og-image.png"
       }
     }
   };
@@ -31,7 +31,7 @@ const About = () => {
         title="About Retro Bowl Unblocked (2026) 🏆 Mission & Analytics Team"
         description="Learn about Retro Bowl Unblocked! Discover our 15,000+ simulated seasons testing lab, independent editorial standards & commitment to 100% free unblocked gaming."
         keywords="about retro bowl unblocked, retro bowl analytics, retro bowl testing lab, who made retro bowl unblocked, retro bowl team"
-        canonicalUrl="https://retrobowlunblocked.biz/about"
+        canonicalUrl="https://retrobowlunblocked.live/about"
         ogType="article"
         jsonLd={jsonLd}
       />

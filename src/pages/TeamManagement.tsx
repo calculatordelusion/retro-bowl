@@ -28,7 +28,7 @@ const TeamManagement = () => {
         title="Retro Bowl Team Management Guide (2026) 💼 GM Blueprint"
         description="Master Retro Bowl franchise building! Deep breakdown of salary cap management, draft pick values, coordinator traits & facility upgrade roadmaps."
         keywords="retro bowl team management, retro bowl salary cap, retro bowl coordinator traits, retro bowl draft guide, retro bowl aging curve, retro bowl facilities"
-        canonicalUrl="https://retrobowlunblocked.biz/team-management"
+        canonicalUrl="https://retrobowlunblocked.live/team-management"
         ogType="article"
         jsonLd={jsonLd}
       />

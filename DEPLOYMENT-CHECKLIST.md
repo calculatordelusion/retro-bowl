@@ -8,20 +8,20 @@ Complete these steps to activate your SEO optimizations and start climbing Googl
 
 ### 1. Deploy Updated Files to Production
 - [ ] Upload all modified files to your web server
-- [ ] Ensure `robots.txt` is accessible at: https://retrobowlunblocked.biz/robots.txt
-- [ ] Verify `sitemap.xml` is live at: https://retrobowlunblocked.biz/sitemap.xml
+- [ ] Ensure `robots.txt` is accessible at: https://retrobowlunblocked.live/robots.txt
+- [ ] Verify `sitemap.xml` is live at: https://retrobowlunblocked.live/sitemap.xml
 - [ ] Clear CDN/server cache to serve new content
 
 ### 2. Google Search Console Setup (CRITICAL!)
 - [ ] Go to: https://search.google.com/search-console
-- [ ] Add property: https://retrobowlunblocked.biz
+- [ ] Add property: https://retrobowlunblocked.live
 - [ ] Verify ownership (HTML file `googleaa30242de7d8615f.html` already uploaded)
-- [ ] Submit sitemap: https://retrobowlunblocked.biz/sitemap.xml
+- [ ] Submit sitemap: https://retrobowlunblocked.live/sitemap.xml
 - [ ] Request indexing for homepage
 
 ### 3. Verify Schema Markup
 - [ ] Test at: https://search.google.com/test/rich-results
-- [ ] Enter URL: https://retrobowlunblocked.biz
+- [ ] Enter URL: https://retrobowlunblocked.live
 - [ ] Confirm all 5 schema types are detected:
   - ✅ WebSite
   - ✅ VideoGame

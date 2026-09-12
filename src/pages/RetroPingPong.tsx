@@ -86,7 +86,7 @@ const RetroPingPong = () => {
         title="Retro Ping Pong Unblocked [2026] 🏓 2-Player Free Game"
         description="Play Retro Ping Pong Unblocked free! Features 1-player vs AI and 2-player local multiplayer on the same Chromebook. No downloads, zero lag & 100% unblocked."
         keywords="retro ping pong unblocked, retro bowl 2 player, retro ping pong 2 player, retro ping pong cool math games, retro ping pong unblocked 76, play retro ping pong free"
-        canonicalUrl="https://retrobowlunblocked.biz/retro-ping-pong"
+        canonicalUrl="https://retrobowlunblocked.live/retro-ping-pong"
         jsonLd={{ ...jsonLd, ...faqJsonLd }}
       />
 
