@@ -26,6 +26,7 @@ import RetroBowlGithub from "./pages/RetroBowlGithub";
 import RetroGoal from "./pages/RetroGoal";
 import RetroPingPong from "./pages/RetroPingPong";
 import BestTeams from "./pages/BestTeams";
+import BingAuth from "./pages/BingAuth";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +40,8 @@ const App = () => (
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/BingSiteAuth.xml" element={<BingAuth />} />
+            <Route path="/bingsiteauth.xml" element={<BingAuth />} />
             <Route path="/retro-bowl-college" element={<RetroBowlCollege />} />
             <Route path="/retro-bowl-25" element={<RetroBowl25 />} />
             <Route path="/unblocked-at-school" element={<UnblockedAtSchool />} />
